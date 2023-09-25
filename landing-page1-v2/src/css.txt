@@ -1,0 +1,64 @@
+.image-container {
+  /* text-align: left; */
+  position: relative;
+  /* width: auto; 
+  height: auto;  */
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+.box1 {
+  text-align: center; /* Center-align the text */
+  color: white; /* Set text color to white */
+  font-size: 24px; /* Adjust the font size as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center children horizontally */
+}
+
+/* .box1 p {
+  margin: 0; 
+} */
+
+.box2 {
+  text-align: center; /* Center-align the text */
+  color: white; /* Set text color to white */
+  font-size: 24px; /* Adjust the font size as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center children horizontally */
+}
+
+
+.image-wrappernews {
+  flex: 0 0 auto; 
+  margin-right:200px;  
+  width: 575px;;
+  height:600px;
+  overflow: auto;
+  position: relative;
+}
+
+.image-wrapperanime {
+  flex: 0 0 auto; /* Allow images to have their own width */
+  /* margin-right: 200px;  */
+  width: 401px;;
+  /* margin-right: 0px; */
+}
+
+.long-image {
+  max-width: 100%; /* Ensure the images don't exceed their container width */
+  height: auto;
+}
+
+.image-text {
+  text-align: center; /* Center-align the text */
+  margin-top: 10px; /* Add spacing between the text and the image */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.7); /* Optional: Add a background to make text more readable */
+  padding: 5px; /* Optional: Add padding for better text appearance */
+}

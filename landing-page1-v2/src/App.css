@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom right, #17eee3, #d539ae);
+}
+
+.App-header {
+  color: white;
+  position: relative; 
+  top: 150px;
+  margin-bottom: 70px;
+}
+
+.title {
+  font-family: 'The Gang of Three', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  width: 200px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.subscribe-input::placeholder {
+  color: #555555;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-btn {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #00BFC7;
+  color: black;
+}
+
+.unsubscribe {
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.subscribe-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  width: 220px;
+}
+
+
+.image-container {
+  position: relative;
+  display: flex;
+  margin-top: -20px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.test{
+  margin-right: 180px;
+}
+.test1{
+  margin-left: 40px;
+}
+.image-container > * {
+  margin-right: -25px;
+  margin-left: -25px; 
+}
+.box1 {
+  
+  color: white; 
+  font-size: 24px; 
+  flex: 1;
+  padding: 40px;
+
+  display: flex; 
+  flex-direction: column;
+  align-items: center;   
+}
+
+
+
+.box2 {
+  
+  color: white; 
+  font-size: 24px; 
+  flex: 1;
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+}
+
+
+.box2 p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.image-wrappernews {
+  flex: 0 0 auto; 
+  margin-right:200px;  
+  width: 575px;;
+  height:300px;
+  overflow: auto;
+  position: relative;
+}
+
+.image-wrapperanime {
+  flex: 0 0 auto; 
+  width: 350px;;
+
+}
+
+.long-image {
+  max-width: 100%; 
+  height: auto;
+}
+
+.image-text {
+  text-align: center; 
+  margin-top: 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.7); 
+  padding: 5px; 
+}
+
+
+
+
+

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'The Gang of Three';
+    src: url('./fonts/go3v2.ttf') format('truetype');
+    /* Replace 'your-font-file.ttf' with the actual file name and path */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
