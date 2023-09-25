@@ -1,0 +1,2 @@
+# Anime-GPT
+automated newsletter 
